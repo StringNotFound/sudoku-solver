@@ -1,0 +1,20 @@
+This program solves sudoku puzzles
+
+To use, execute sudoku.py with python. You then need
+to input the sudoku. An example valid input is below:
+
+0 6 4 9 3 0 0 2 0
+0 0 9 4 8 0 6 0 0
+0 2 0 0 0 0 0 0 3
+4 0 0 0 0 0 7 0 6
+0 3 0 1 7 8 0 9 0
+9 0 7 0 0 0 0 0 2
+1 0 0 0 0 0 0 6 0
+0 0 8 0 6 1 5 0 0
+0 4 0 0 9 7 3 1 0
+
+0 represents an unknown value. The program will
+solve for all unknown values and print out the
+result. The output is only well-defined for solvable
+sudokus. If there are multiple possible solutions,
+the algorithm will return one of the solutions.
